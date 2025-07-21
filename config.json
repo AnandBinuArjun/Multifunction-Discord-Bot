@@ -1,0 +1,50 @@
+{
+  "branding": {
+    "serverName": "Your FiveM Server Name",
+    "serverIconURL": "https://i.imgur.com/your_server_logo.png",
+    "mainColor": "#5865F2",
+    "successColor": "#57F287",
+    "errorColor": "#ED4245",
+    "warnColor": "#FEE75C"
+  },
+  "applicationSystem": {
+    "reviewChannelId": "YOUR_APP_REVIEW_CHANNEL_ID",
+    "reviewRoleId": "YOUR_STAFF_ROLE_ID_TO_PING",
+    "applyButtonId": "start_fivem_application"
+  },
+  "voiceNotifier": {
+    "notificationChannelId": "YOUR_VOICE_NOTIFICATIONS_CHANNEL_ID",
+    "channelsToWatch": [
+      "ID_OF_VOICE_CHANNEL_TO_WATCH_1"
+    ]
+  },
+  "serverStatus": {
+    "announcementChannelId": "YOUR_PUBLIC_ANNOUNCEMENTS_CHANNEL_ID",
+    "onlineButtonId": "set_server_online",
+    "restartButtonId": "announce_server_restart",
+    "maintenanceButtonId": "set_server_maintenance",
+    "restartModalId": "restart_time_modal",
+    "onlineImageURL": "https://i.imgur.com/your_online_image.png",
+    "restartImageURL": "https://i.imgur.com/your_restart_image.png",
+    "maintenanceImageURL": "https://i.imgur.com/your_maintenance_image.png"
+  },
+  "roleManagement": {
+    "logChannelId": "YOUR_ADMIN_LOG_CHANNEL_ID"
+  },
+  "ticketSystem": {
+    "panelChannelId": "ID_OF_CHANNEL_FOR_TICKET_PANEL",
+    "logChannelId": "ID_OF_CHANNEL_FOR_TICKET_LOGS",
+    "supportRoleId": "ID_OF_SUPPORT_STAFF_ROLE",
+    "ticketCategoryId": "ID_OF_CATEGORY_TO_CREATE_TICKETS_IN",
+    "createTicketButtonId": "create_new_ticket",
+    "closeTicketButtonId": "close_current_ticket",
+    "panelImageURL": "https://i.imgur.com/your_ticket_panel_image.png"
+  },
+  "applicationQuestions": [
+    "What is your character's full name and date of birth?",
+    "Please provide a detailed backstory for your character (minimum 100 words).",
+    "What is your Steam Hex ID?",
+    "Have you read all the server rules? What is the rule regarding 'RDM'?",
+    "What is your real age and Discord username (e.g., username#1234)?"
+  ]
+}
